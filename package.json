@@ -1,0 +1,23 @@
+{
+    "name": "slackbotweather",
+    "version": "1.0.0",
+    "description": "SlackBot that gives current temperature in cities",
+    "main": "index.js",
+    "scripts": {
+        "start": "node index.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/mbkrafft/SlackBotWeather"
+    },
+    "keywords": [
+        "Weather",
+        "Bot"
+    ],
+    "author": "Mathias Krafft",
+    "license": "MIT",
+    "dependencies": {
+        "@types/axios": "^0.18.0",
+        "@types/slackbots": "^1.1.0"
+    }
+}
