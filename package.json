@@ -2,9 +2,10 @@
     "name": "slackbotweather",
     "version": "1.0.0",
     "description": "SlackBot that gives current temperature in cities",
-    "main": "index.js",
+    "main": "lib/index",
+    "types": "index",
     "scripts": {
-        "start": "node index.js"
+        "start": "node lib/index.js"
     },
     "repository": {
         "type": "git",
