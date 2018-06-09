@@ -28,19 +28,24 @@ Mathias Krafft
 ### License
 
 This project is licensed under the MIT License
+```
 
-### Quick Start
+## Quick Start
 
+```bash
 # Create a new bot on [slack](https://api.slack.com/apps?new_app=1)
 
 # Include your Bot OAuth Access Token, Bot ID, [apixu](https://www.apixu.com/api.aspx) key and [ipinfo](https://ipinfo.io/developers) token in index.ts
 
 # Install dependencies
+
 npm i slackbots axios
 
 # Compile TypeScript
+
 tsc
 
 # Run bot on localhost
+
 npm start
 ```
